@@ -249,7 +249,7 @@ public class reg extends javax.swing.JFrame {
         
             insert.setInt(1,id);
             insert.executeUpdate();
-            JOptionPane.showMessageDialog(this, "Record Delete");
+            JOptionPane.showMessageDialog(this, "Record Deleted");
             txtname.setText("");
             txtmobile.setText("");
             txtcourse.setText("");
